@@ -46,3 +46,6 @@
 <button type="submit">Send Message</button>
             </form>
         </section>
+<footer>
+        <p>2026 Precision Tools Inc. | SB Jain Project</p>
+    </footer>
