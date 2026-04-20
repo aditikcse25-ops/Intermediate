@@ -39,3 +39,8 @@
             <form class="contact-form">
 <label for="text">Name:</label>
                 <input type="text" placeholder="Your Name" required>
+<label for="email">Email:</label>
+                <input type="email" placeholder="Your Email" required>
+
+<label for="message">Message:</label>
+                <textarea placeholder="Your Message" rows="4"></textarea>
