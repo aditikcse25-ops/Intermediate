@@ -37,3 +37,5 @@
 <section id="contact" class="contact">
             <h2>Contact Us</h2>
             <form class="contact-form">
+<label for="text">Name:</label>
+                <input type="text" placeholder="Your Name" required>
