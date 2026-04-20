@@ -22,3 +22,8 @@
 <section id="team" class="team">
             <h2>Meet the Team</h2>
             <div class="card-container">
+<div class="card">
+                <h3>Yash Oberoi</h3>
+                <p>Chief Executive Officer</p>
+                <p>Specializing in strategic industrial growth and sustainable manufacturing operations.</p>
+            </div>
