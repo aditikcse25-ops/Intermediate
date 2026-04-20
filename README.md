@@ -27,3 +27,8 @@
                 <p>Chief Executive Officer</p>
                 <p>Specializing in strategic industrial growth and sustainable manufacturing operations.</p>
             </div>
+<div class="card">
+                <h3>Rishabh Bajaj</h3>
+                <p>Director of Engineering</p>
+                <p>Expert in aerospace-grade tool design with a focus on structural integrity.</p>
+            </div>
