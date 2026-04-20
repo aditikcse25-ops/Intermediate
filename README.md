@@ -32,3 +32,5 @@
                 <p>Director of Engineering</p>
                 <p>Expert in aerospace-grade tool design with a focus on structural integrity.</p>
             </div>
+</div>
+        </section>
