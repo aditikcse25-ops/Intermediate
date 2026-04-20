@@ -16,3 +16,6 @@
 <section id="home" class="hero">
             <h1>Precision Tools Inc.</h1>
             <h2>Quality Manufacturing You Can Trust</h2>
+<p>We provide the most precise tools for your industrial needs.</p>
+            <a href="#contact" class="btn">View Our Page</a>
+        </section>
