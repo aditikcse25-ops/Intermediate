@@ -49,3 +49,5 @@
 <footer>
         <p>2026 Precision Tools Inc. | SB Jain Project</p>
     </footer>
+</body>
+</html>
