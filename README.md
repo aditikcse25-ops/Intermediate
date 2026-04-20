@@ -34,3 +34,6 @@
             </div>
 </div>
         </section>
+<section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
