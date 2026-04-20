@@ -13,3 +13,6 @@
             <a href="#contact">Contact Us</a>
             </div>
             </nav>
+<section id="home" class="hero">
+            <h1>Precision Tools Inc.</h1>
+            <h2>Quality Manufacturing You Can Trust</h2>
