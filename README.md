@@ -19,3 +19,6 @@
 <p>We provide the most precise tools for your industrial needs.</p>
             <a href="#contact" class="btn">View Our Page</a>
         </section>
+<section id="team" class="team">
+            <h2>Meet the Team</h2>
+            <div class="card-container">
