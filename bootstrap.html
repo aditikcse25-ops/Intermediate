@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Tools | Advanced Features</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img { height: 500px; object-fit: cover; }
+        .feature-card { transition: transform 0.3s; }
+        .feature-card:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="#">PRECISION TOOLS PRO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <button id="darkModeToggle" class="btn btn-outline-light btn-sm ms-2">Toggle Dark Mode</button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#showcase">Product Showcase</a></li>
+                <li class="nav-item"><a class="nav-link" href="#catalogue">Catalogue</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Back to Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="toolCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Industrial CNC">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Next-Gen Manufacturing</h5>
+                <p>Advanced CNC machinery for aerospace precision.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Precision Lathe">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Quality Control</h5>
+                <p>Every tool is tested to 0.001mm accuracy.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#toolCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#toolCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<section id="catalogue" class="container py-5">
+    <h2 class="text-center mb-5 border-bottom pb-3">Our Precision Series</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 feature-card shadow-sm">
+                <img src="https://whizcut.com/wp-content/uploads/2023/05/Whizdrill-technical-information.webp" class="card-img-top" alt="Drill bit">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Tungsten Carbide Drills</h5>
+                    <p class="card-text">Engineered for high-heat industrial applications with diamond-coated tips.</p>
+                    <span class="badge bg-success">In Stock</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 feature-card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Measuring tool">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Digital Micrometers</h5>
+                    <p class="card-text">OLED display with Bluetooth data sync for real-time quality logging.</p>
+                    <span class="badge bg-warning text-dark">Pre-Order</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 feature-card shadow-sm">
+                <img src="https://tormach.com/media/catalog/product/cache/4d6655ef9acd2a327b89dc92d33a04de/v/b/vb00020-deluxe-gang-tooling-kit-half-in.jpg" class="card-img-top" alt="Lathe bit">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Precision Lathe Bits</h5>
+                    <p class="card-text">Specialized bits for titanium and reinforced composite shaping.</p>
+                    <span class="badge bg-success">In Stock</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+        <h3>Technical Specifications & FAQ</h3>
+        <details class="p-3 bg-white border rounded mb-2">
+            <summary class="fw-bold cursor-pointer">What is the ISO Certification level?</summary>
+            <p class="mt-2 text-muted">All tools at Precision Tools Inc. are ISO 9001:2015 certified for manufacturing excellence.</p>
+        </details>
+        <details class="p-3 bg-white border rounded">
+            <summary class="fw-bold">How do I access maintenance logs?</summary>
+            <p class="mt-2 text-muted">Use the QR code found on the base of each tool to access the digital twin maintenance log.</p>
+        </details>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>2026 Precision Tools | SB Jain Project</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.min.js"></script>
+
+<script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('bg-dark');
+        document.body.classList.toggle('text-white');
+        
+        // Adjust sections that have light backgrounds
+        const lightSections = document.querySelectorAll('.bg-light');
+        lightSections.forEach(section => {
+            section.classList.toggle('bg-secondary');
+            section.classList.toggle('text-white');
+        });
+    });
+</script>
+
+<script>
+    // Example: Feedback when a user clicks on a product card
+    const cards = document.querySelectorAll('.feature-card');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const toolName = card.querySelector('.card-title').innerText;
+            alert("You are now viewing technical details for: " + toolName);
+        });
+    });
+</script>
+
+
+</body>
+</html>
