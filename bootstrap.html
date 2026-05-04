@@ -119,7 +119,6 @@
         document.body.classList.toggle('bg-dark');
         document.body.classList.toggle('text-white');
         
-        // Adjust sections that have light backgrounds
         const lightSections = document.querySelectorAll('.bg-light');
         lightSections.forEach(section => {
             section.classList.toggle('bg-secondary');
@@ -129,7 +128,6 @@
 </script>
 
 <script>
-    // Example: Feedback when a user clicks on a product card
     const cards = document.querySelectorAll('.feature-card');
     cards.forEach(card => {
         card.addEventListener('click', () => {
